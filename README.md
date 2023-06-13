@@ -1,23 +1,34 @@
 
-#  Travel And Tourism Management System
+# Travel And Tourism Management System
 
  ![Logo](https://raw.githubusercontent.com/pkiran1017/Travel-And-Tourism-Management-System/main/Screenshots/Home.png)
 
 ## Features
 
-- Visualized Data.
-- Open Source.
+- Implimented Paymentgateway (Razerpay).
+- Manage Customer Details.
+- Manage Hotel Details.
+- Manage Destination Details.
+- You can Book Hotes/ Book Pakages.
 
 ## Requirements
-- PowerBi Software or Use PowerBi Site.
+- Database: MySQL.
+https://www.apachefriends.org/download.html or https://www.mysql.com/products/workbench
+
+- IDE: Any or NetBeans.
+https://netbeans.apache.org/download/index.html
+
+- libraries: mysql-connector-java,rs2xml, Package zulu (For Paymentgateway module which is in JAVAFX).
+![Logo](https://raw.githubusercontent.com/pkiran1017/Travel-And-Tourism-Management-System/main/Screenshots/Labraries.png)
+
 
 ## How To Setup / Installation
-
-- Open PowerBi.
-- Import or Open .pbix file.
-- Import Dataset.
-
-## How This Tool Works
+- Open NetBeans.
+- Import Project File.
+- Setup MySQL Database with name tms.
+- Change Database Connection Details in Conn.java (Port Number, ID & Pass).
+![Logo](https://raw.githubusercontent.com/pkiran1017/Travel-And-Tourism-Management-System/main/Screenshots/Connection.jpg)
+- Run Main.java & Create new account and enjoy.
 
 ### New Customeer Form
 ![Logo](https://raw.githubusercontent.com/pkiran1017/Travel-And-Tourism-Management-System/main/Screenshots/Add%20Cus.jpg)
@@ -56,31 +67,9 @@
 ### About Project
 ![Logo](https://raw.githubusercontent.com/pkiran1017/Travel-And-Tourism-Management-System/main/Screenshots/About.jpg)
 
-### How This Visualization Will Help.
-- Showes Sell, Profit, Loss as per year.
-- Showes Sales By Segment.
-- Showes Sales By Market.
-- Showes Top Customers.
-- Top Profit and Loss by Product Name.
-- Showes Sales By Country.
-##### These visualization helps to improve and Analyze store sale.
-
-### Video Demo
-#### [Click to Play Demo](https://youtu.be/sdRoXEqVE0g)
-[![Watch the video](https://raw.githubusercontent.com/pkiran1017/Global-Store-Sales-Analysis-And-Visualization/main/Screenshots/livedemo.gif)](https://youtu.be/sdRoXEqVE0g)
-
-### Developing Steps
-
-- Connecting Databases.
-- Analyzing Tables & Relations.
-- Data Cleaning - Power Query Editor :- DAX.
-- Developing Model.
-- Creating Dashboard.
-
 ### Future Scope
 
-- You can change visualization as per your requirement.
-- You can add additional fileds on dashboard as per requirement.
+- You can implement different modules like flight booking,Online services, Travels booking e.t.c 
 
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pkiran101714)
