@@ -19,6 +19,7 @@ https://www.apachefriends.org/download.html or https://www.mysql.com/products/wo
 https://netbeans.apache.org/download/index.html
 
 - libraries: mysql-connector-java,rs2xml, Package zulu (For Paymentgateway module which is in JAVAFX).
+- 
 ![Logo](https://raw.githubusercontent.com/pkiran1017/Travel-And-Tourism-Management-System/main/Screenshots/Labraries.png)
 
 
@@ -27,7 +28,9 @@ https://netbeans.apache.org/download/index.html
 - Import Project File.
 - Setup MySQL Database with name tms.
 - Change Database Connection Details in Conn.java (Port Number, ID & Pass).
+- 
 ![Logo](https://raw.githubusercontent.com/pkiran1017/Travel-And-Tourism-Management-System/main/Screenshots/Connection.jpg)
+
 - Run Main.java & Create new account and enjoy.
 
 ### New Customeer Form
